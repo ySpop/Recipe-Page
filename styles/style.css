@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: YoungSerif;
+    src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body {
+    background-color: hsl(30, 18%, 87%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1240px;
+    height: 1800px;
+}
+
+main {
+    height: 1615px;
+    width: 600px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 35px;
+}
+
+.attribution {
+    width: 420px;
+    height: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+img {
+    width: 100%;
+    height: 275px;
+    border-radius: 15px;
+    margin-bottom: 35px;
+}
+
+.desc {
+    width: 95%;
+    height: 125px;
+    margin-bottom: 20px;
+}
+
+.first-art {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-art span {
+    font-size: 41px;
+    font-weight: 600;
+    font-family: "Young Serif";
+    margin-bottom: 15px;
+    letter-spacing: var(--letter-spacing);
+}
+
+p {
+    font-size: 14px;
+    color:hsl(30, 10%, 34%);
+    font-family: "Outfit";
+    font-weight: 400;
+
+}
+
+.prep-time {
+    width: 100%;
+    height: 155px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.prep-time span {
+    font-size: 18px;
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+    font-family: "Outfit"; 
+}
+
+.prep-time ul {
+    display: flex;
+    height: 65px;
+    width: 430px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-inline-start: 14px;
+    margin-top: 10px;
+    gap: 11px;
+}
+
+
+li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+li {
+    padding-left: 15px;
+    color: hsl(30, 10%, 34%)
+}
+
+.ingredients {
+    height: 195px;
+    margin-top: 30px;
+}
+
+.ingredients article {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredients span {
+    font-size: 32px;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.ingredients ul {
+    padding-inline-start: 20px;
+    display: flex;
+    gap: 11px;
+    height: 100%;
+    flex-direction: column;
+}
+
+.list-2::marker {
+    color:hsl(14, 45%, 36%);
+}
+
+hr {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid hsl(14, 45%, 36%);
+    margin-top: 20px;
+}
+
+.instructions {
+    height: 370px;
+}
+
+.instructions article {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.instructions span {
+    font-size: 32px;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.instructions ul {
+    padding-inline-start: 20px;
+    display: flex;
+    gap: 11px;
+    height: 100%;
+    flex-direction: column;
+    list-style-type: decimal;
+}
+
+.bold::marker {
+    font-weight: bold;
+}
+
+.table-section {
+    height: 195px;
+    display: flex;
+    flex-direction: column;
+}
+
+.table-section span {
+    font-size: 32px;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.table-section p {
+    margin-bottom: 15px;
+}
+
+/* TABELA */
+
+table {
+    border-collapse: collapse;
+    height: 110px;
+    font-family: "Outfit";
+}
+
+td {
+    padding: 12px;
+}
+
+.border-table {
+    border-bottom: 1px solid gray;
+}
+
+td:nth-of-type(even) {
+    font-weight: bold; 
+    color: hsl(332, 51%, 32%);
+    font-weight: 800;
+}
+
+td:nth-of-type(odd) {
+    font-weight: 800;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 350;
+}
+
+
+
+
+
+
+
+
+
